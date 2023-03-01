@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
-<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
-<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
-<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
-<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
-<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
-<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
-<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
-<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
-<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
-<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
-<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
-<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -33484,16 +33484,15 @@ Part #: DMP3099L-7DICT-ND</description>
 <part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="Yellow"/>
 <part name="TEST-GND1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:6240654/1"/>
 <part name="VREG" library="eDNA" deviceset="BUCK_REGULATORS" device="" package3d_urn="urn:adsk.eagle:package:13489247@1/1"/>
-<part name="CBOOT" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100nF"/>
-<part name="COUT" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="47uF"/>
-<part name="CIN" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206K" package3d_urn="urn:adsk.eagle:package:23682/2" value="10uF"/>
+<part name="CBOOT" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
+<part name="COUT" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="47uF"/>
+<part name="CIN" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
 <part name="L1" library="EMCComponents (rev19e)" deviceset="WE-MAPI_4030" device="" technology="_74438357100" value="10UH 2.7A "/>
 <part name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BAT60J" device="" package3d_urn="urn:adsk.eagle:package:43461/1" value="NSR0320MW2T1G"/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED2" library="adafruit" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="RED"/>
-<part name="R11" library="Resistor_Capacitor" library_urn="urn:adsk.eagle:library:11396451" deviceset="WSLP1206R0500FEA" device="" package3d_urn="urn:adsk.eagle:package:10872898/2" value="6.2k"/>
 <part name="L3" library="LB3218T1R0M" deviceset="LB3218T1R0M" device=""/>
-<part name="CIN1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206K" package3d_urn="urn:adsk.eagle:package:23682/2" value="10uF"/>
+<part name="CIN1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
 <part name="TPIC0" library="eDNA" deviceset="TPIC6B596" device="" override_package3d_urn="urn:adsk.eagle:package:27060693/2" override_package_urn="urn:adsk.eagle:footprint:27060694/1"/>
 <part name="TPIC1" library="eDNA" deviceset="TPIC6B596" device="" override_package3d_urn="urn:adsk.eagle:package:27060729/2" override_package_urn="urn:adsk.eagle:footprint:27060731/1"/>
 <part name="TPIC2" library="eDNA" deviceset="TPIC6B596" device="" override_package3d_urn="urn:adsk.eagle:package:27060723/2" override_package_urn="urn:adsk.eagle:footprint:27060724/1"/>
@@ -33514,20 +33513,20 @@ Part #: DMP3099L-7DICT-ND</description>
 <part name="P+14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="NOTGATE1" library="eDNA" deviceset="NOT_GATE" device="" value=""/>
 <part name="NOTGATE2" library="eDNA" deviceset="NOT_GATE" device="" value=""/>
-<part name="R12" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:6240569/1" value="20K"/>
-<part name="R13" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:6240569/1" value="20K"/>
+<part name="R12" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:6240566/1" value="20K"/>
+<part name="R13" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:6240566/1" value="20K"/>
 <part name="P+17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="C6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
-<part name="C20" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100nF"/>
-<part name="C8" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100nF"/>
-<part name="C9" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100nF"/>
-<part name="C12" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100nF"/>
-<part name="C13" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100nF"/>
-<part name="C7" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="150pF"/>
-<part name="C16" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="150pF"/>
-<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="32K"/>
-<part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="32K"/>
+<part name="C20" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
+<part name="C8" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
+<part name="C9" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
+<part name="C12" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
+<part name="C13" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
+<part name="C7" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="150pF"/>
+<part name="C16" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="150pF"/>
+<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="32K"/>
+<part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="32K"/>
 <part name="J1" library="Sampler-eDNA" library_urn="urn:adsk.eagle:library:26992735" deviceset="PJS008U-3000-0" device="" package3d_urn="urn:adsk.eagle:package:27007138/8"/>
 <part name="C17" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
 <part name="U$4" library="Sampler-eDNA" library_urn="urn:adsk.eagle:library:26992735" deviceset="DF51K-26DP-2DS" device="" package3d_urn="urn:adsk.eagle:package:27007137/2"/>
@@ -33536,10 +33535,10 @@ Part #: DMP3099L-7DICT-ND</description>
 <part name="D4" library="Sampler-eDNA" library_urn="urn:adsk.eagle:library:26992735" deviceset="SMAJ60A" device="" package3d_urn="urn:adsk.eagle:package:26993078/1"/>
 <part name="D5" library="Sampler-eDNA" library_urn="urn:adsk.eagle:library:26992735" deviceset="SMAJ60A" device="" package3d_urn="urn:adsk.eagle:package:26993078/1"/>
 <part name="D2" library="Sampler-eDNA" library_urn="urn:adsk.eagle:library:26992735" deviceset="1N4148W" device="" package3d_urn="urn:adsk.eagle:package:26993077/1"/>
-<part name="C5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100nF"/>
-<part name="RGND" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1K"/>
-<part name="CIN2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206K" package3d_urn="urn:adsk.eagle:package:23682/2" value="10uF"/>
-<part name="C10" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100nF"/>
+<part name="C5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
+<part name="RGND" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1K"/>
+<part name="CIN2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
+<part name="C10" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
 <part name="U$5" library="Sampler-eDNA" library_urn="urn:adsk.eagle:library:26992735" deviceset="DF51K-14DP-2DS" device="" package3d_urn="urn:adsk.eagle:package:27007136/2"/>
 <part name="P+19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -33627,40 +33626,42 @@ Part #: DMP3099L-7DICT-ND</description>
 <part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
 <part name="P+16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="R11" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="6.2k"/>
+<part name="R21" library="Resistor_Capacitor" library_urn="urn:adsk.eagle:library:11396451" deviceset="WSLP1206R0500FEA" device="" package3d_urn="urn:adsk.eagle:package:10872898/2" value="100k"/>
 </parts>
 <sheets>
 <sheet>
 <description>Logic + Sensor</description>
 <plain>
-<text x="58.42" y="-53.34" size="2.54" layer="97" grouprefs="SLEEPINDICATORS">No Sleep LED</text>
+<text x="33.02" y="-99.06" size="2.54" layer="97" grouprefs="SLEEPINDICATORS">No Sleep LED</text>
 <text x="-129.54" y="-86.36" size="2.54" layer="97" grouprefs="MCU">Feather M0 Wifi</text>
-<text x="83.82" y="-76.2" size="2.54" layer="97" grouprefs="SLEEPINDICATORS">To Sleep Switch</text>
-<text x="-60.96" y="-83.82" size="1.778" layer="97" grouprefs="VOLTAGE_REGULATOR">Input voltage ripple is 7.14mV</text>
-<text x="-25.4" y="-83.82" size="1.778" layer="97" grouprefs="VOLTAGE_REGULATOR">L &gt; 6.8 uH, Imax &gt; 1.6A</text>
+<text x="58.42" y="-121.92" size="2.54" layer="97" grouprefs="SLEEPINDICATORS">To Sleep Switch</text>
+<text x="-58.42" y="-83.82" size="1.778" layer="97" grouprefs="VOLTAGE_REGULATOR">Input voltage ripple is 7.14mV</text>
+<text x="-22.86" y="-83.82" size="1.778" layer="97" grouprefs="VOLTAGE_REGULATOR">L &gt; 6.8 uH, Imax &gt; 1.6A</text>
 <text x="-149.86" y="-187.96" size="1.778" layer="97" grouprefs="ONBOARD_PRESSURE">Default address is 0x77 unless solder jumper is bridged</text>
 <text x="58.42" y="-2.54" size="1.778" layer="97" rot="R90" grouprefs="MOSFET_POWER_SWITCH">S</text>
 <text x="58.42" y="-12.7" size="1.778" layer="97" rot="R90" grouprefs="MOSFET_POWER_SWITCH">D</text>
 </plain>
 <instances>
-<instance part="R4" gate="G$1" x="71.12" y="-81.28" smashed="yes" rot="R90" grouprefs="SLEEPINDICATORS">
-<attribute name="NAME" x="69.6214" y="-82.55" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="74.422" y="-82.55" size="1.778" layer="96" rot="R90"/>
+<instance part="R4" gate="G$1" x="45.72" y="-127" smashed="yes" rot="R90" grouprefs="SLEEPINDICATORS">
+<attribute name="NAME" x="44.2214" y="-128.27" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="49.022" y="-128.27" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="P_MOS" gate="G$1" x="73.66" y="-68.58" smashed="yes" rot="R180" grouprefs="SLEEPINDICATORS">
-<attribute name="NAME" x="68.58" y="-68.58" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="68.58" y="-66.04" size="1.778" layer="96" font="vector" rot="R180"/>
+<instance part="P_MOS" gate="G$1" x="48.26" y="-114.3" smashed="yes" rot="R180" grouprefs="SLEEPINDICATORS">
+<attribute name="NAME" x="43.18" y="-114.3" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="43.18" y="-111.76" size="1.778" layer="96" font="vector" rot="R180"/>
 </instance>
-<instance part="LED" gate="G$1" x="58.42" y="-92.71" smashed="yes" rot="R270" grouprefs="SLEEPINDICATORS">
-<attribute name="NAME" x="55.88" y="-88.265" size="1.778" layer="95"/>
+<instance part="LED" gate="G$1" x="33.02" y="-138.43" smashed="yes" rot="R270" grouprefs="SLEEPINDICATORS">
+<attribute name="NAME" x="30.48" y="-133.985" size="1.778" layer="95"/>
 </instance>
 <instance part="MS1" gate="G$1" x="-129.54" y="-86.36" smashed="yes" rot="R270" grouprefs="MCU"/>
 <instance part="TEST-GND" gate="G$1" x="-137.16" y="-208.28" smashed="yes" grouprefs="CONNECTORS">
 <attribute name="NAME" x="-146.05" y="-215.265" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-143.51" y="-213.36" size="1.778" layer="96"/>
 </instance>
-<instance part="SWITCH" gate="G$1" x="106.68" y="-91.44" smashed="yes" rot="R180" grouprefs="SLEEPINDICATORS">
-<attribute name="NAME" x="110.236" y="-99.822" size="1.016" layer="95" rot="R180"/>
-<attribute name="VALUE" x="109.982" y="-82.296" size="1.016" layer="96" rot="R180"/>
+<instance part="SWITCH" gate="G$1" x="81.28" y="-137.16" smashed="yes" rot="R180" grouprefs="SLEEPINDICATORS">
+<attribute name="NAME" x="84.836" y="-145.542" size="1.016" layer="95" rot="R180"/>
+<attribute name="VALUE" x="84.582" y="-128.016" size="1.016" layer="96" rot="R180"/>
 </instance>
 <instance part="R1" gate="G$1" x="93.98" y="-7.62" smashed="yes" rot="R90" grouprefs="BATTERY_READ_CIRCUIT">
 <attribute name="NAME" x="92.4814" y="-11.43" size="1.778" layer="95" rot="R90"/>
@@ -33673,25 +33674,25 @@ Part #: DMP3099L-7DICT-ND</description>
 <instance part="P+5" gate="1" x="93.98" y="2.54" smashed="yes" grouprefs="BATTERY_READ_CIRCUIT">
 <attribute name="VALUE" x="96.52" y="7.62" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="+3V1" gate="G$1" x="96.52" y="-86.36" smashed="yes" rot="R90" grouprefs="SLEEPINDICATORS">
-<attribute name="VALUE" x="88.9" y="-86.36" size="1.778" layer="96"/>
+<instance part="+3V1" gate="G$1" x="71.12" y="-132.08" smashed="yes" rot="R90" grouprefs="SLEEPINDICATORS">
+<attribute name="VALUE" x="63.5" y="-132.08" size="1.778" layer="96"/>
 </instance>
-<instance part="+3V2" gate="G$1" x="71.12" y="-58.42" smashed="yes" grouprefs="SLEEPINDICATORS">
-<attribute name="VALUE" x="73.66" y="-55.88" size="1.778" layer="96" rot="R180"/>
+<instance part="+3V2" gate="G$1" x="45.72" y="-104.14" smashed="yes" grouprefs="SLEEPINDICATORS">
+<attribute name="VALUE" x="48.26" y="-101.6" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R3" gate="G$1" x="45.72" y="-132.08" smashed="yes" rot="MR90" grouprefs="PULL_UP_RESISTOR">
-<attribute name="NAME" x="44.2214" y="-133.35" size="1.778" layer="95" rot="MR270"/>
-<attribute name="VALUE" x="42.418" y="-130.81" size="1.778" layer="96" rot="MR90"/>
+<instance part="R3" gate="G$1" x="73.66" y="-63.5" smashed="yes" rot="MR90" grouprefs="PULL_UP_RESISTOR">
+<attribute name="NAME" x="72.1614" y="-64.77" size="1.778" layer="95" rot="MR270"/>
+<attribute name="VALUE" x="70.358" y="-62.23" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="R5" gate="G$1" x="38.1" y="-132.08" smashed="yes" rot="MR90" grouprefs="PULL_UP_RESISTOR">
-<attribute name="NAME" x="36.6014" y="-133.35" size="1.778" layer="95" rot="MR270"/>
-<attribute name="VALUE" x="34.798" y="-130.81" size="1.778" layer="96" rot="MR90"/>
+<instance part="R5" gate="G$1" x="66.04" y="-63.5" smashed="yes" rot="MR90" grouprefs="PULL_UP_RESISTOR">
+<attribute name="NAME" x="64.5414" y="-64.77" size="1.778" layer="95" rot="MR270"/>
+<attribute name="VALUE" x="62.738" y="-62.23" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="+3V4" gate="G$1" x="45.72" y="-121.92" smashed="yes" rot="MR0" grouprefs="PULL_UP_RESISTOR">
-<attribute name="VALUE" x="45.72" y="-119.38" size="1.27" layer="96" font="vector" rot="MR180" align="bottom-center"/>
+<instance part="+3V4" gate="G$1" x="73.66" y="-53.34" smashed="yes" rot="MR0" grouprefs="PULL_UP_RESISTOR">
+<attribute name="VALUE" x="73.66" y="-50.8" size="1.27" layer="96" font="vector" rot="MR180" align="bottom-center"/>
 </instance>
-<instance part="+3V5" gate="G$1" x="38.1" y="-121.92" smashed="yes" rot="MR0" grouprefs="PULL_UP_RESISTOR">
-<attribute name="VALUE" x="38.1" y="-119.38" size="1.27" layer="96" font="vector" rot="MR180" align="bottom-center"/>
+<instance part="+3V5" gate="G$1" x="66.04" y="-53.34" smashed="yes" rot="MR0" grouprefs="PULL_UP_RESISTOR">
+<attribute name="VALUE" x="66.04" y="-50.8" size="1.27" layer="96" font="vector" rot="MR180" align="bottom-center"/>
 </instance>
 <instance part="12V_IN" gate="G$1" x="-139.7" y="2.54" smashed="yes" rot="R270" grouprefs="REVERSE_POLARITY_CURRENT">
 <attribute name="NAME" x="-149.86" y="0" size="1.27" layer="95"/>
@@ -33708,45 +33709,41 @@ Part #: DMP3099L-7DICT-ND</description>
 <attribute name="NAME" x="20.32" y="-112.395" size="1.27" layer="95" rot="R180"/>
 <attribute name="VALUE" x="15.24" y="-119.38" size="1.27" layer="96" rot="R90"/>
 </instance>
-<instance part="LED1" gate="G$1" x="71.12" y="-91.44" smashed="yes" grouprefs="SLEEPINDICATORS">
-<attribute name="NAME" x="74.168" y="-94.996" size="1.778" layer="95"/>
-<attribute name="VALUE" x="74.168" y="-92.075" size="1.778" layer="96"/>
+<instance part="LED1" gate="G$1" x="45.72" y="-137.16" smashed="yes" grouprefs="SLEEPINDICATORS">
+<attribute name="NAME" x="48.768" y="-140.716" size="1.778" layer="95"/>
+<attribute name="VALUE" x="48.768" y="-137.795" size="1.778" layer="96"/>
 </instance>
 <instance part="TEST-GND1" gate="G$1" x="-137.16" y="-220.98" smashed="yes" grouprefs="CONNECTORS">
 <attribute name="NAME" x="-146.05" y="-227.965" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-143.51" y="-226.06" size="1.778" layer="96"/>
 </instance>
-<instance part="VREG" gate="G$1" x="-15.24" y="-63.5" smashed="yes" grouprefs="VOLTAGE_REGULATOR">
-<attribute name="VALUE" x="-27.94" y="-76.2" size="1.778" layer="96"/>
+<instance part="VREG" gate="G$1" x="-12.7" y="-63.5" smashed="yes" grouprefs="VOLTAGE_REGULATOR">
+<attribute name="VALUE" x="-25.4" y="-76.2" size="1.778" layer="96"/>
 </instance>
-<instance part="CBOOT" gate="G$1" x="-2.54" y="-55.88" smashed="yes" grouprefs="VOLTAGE_REGULATOR">
-<attribute name="NAME" x="-1.524" y="-55.245" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-1.524" y="-60.071" size="1.778" layer="96"/>
+<instance part="CBOOT" gate="G$1" x="0" y="-55.88" smashed="yes" grouprefs="VOLTAGE_REGULATOR">
+<attribute name="NAME" x="1.016" y="-55.245" size="1.778" layer="95"/>
+<attribute name="VALUE" x="1.016" y="-60.071" size="1.778" layer="96"/>
 </instance>
-<instance part="COUT" gate="G$1" x="22.86" y="-63.5" smashed="yes" grouprefs="VOLTAGE_REGULATOR">
-<attribute name="NAME" x="23.876" y="-62.865" size="1.778" layer="95"/>
-<attribute name="VALUE" x="23.876" y="-67.691" size="1.778" layer="96"/>
+<instance part="COUT" gate="G$1" x="25.4" y="-63.5" smashed="yes" grouprefs="VOLTAGE_REGULATOR">
+<attribute name="NAME" x="26.416" y="-62.865" size="1.778" layer="95"/>
+<attribute name="VALUE" x="26.416" y="-67.691" size="1.778" layer="96"/>
 </instance>
 <instance part="CIN" gate="G$1" x="-35.56" y="-60.96" smashed="yes" grouprefs="VOLTAGE_REGULATOR">
 <attribute name="NAME" x="-42.164" y="-60.325" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-42.164" y="-65.151" size="1.778" layer="96"/>
 </instance>
-<instance part="L1" gate="G$1" x="10.16" y="-60.96" smashed="yes" grouprefs="VOLTAGE_REGULATOR">
-<attribute name="NAME" x="7.62" y="-58.42" size="1.27" layer="95"/>
-<attribute name="VALUE" x="5.08" y="-63.5" size="1.27" layer="96"/>
+<instance part="L1" gate="G$1" x="12.7" y="-60.96" smashed="yes" grouprefs="VOLTAGE_REGULATOR">
+<attribute name="NAME" x="10.16" y="-58.42" size="1.27" layer="95"/>
+<attribute name="VALUE" x="7.62" y="-63.5" size="1.27" layer="96"/>
 </instance>
-<instance part="D3" gate="G$1" x="0" y="-63.5" smashed="yes" rot="R90" grouprefs="VOLTAGE_REGULATOR">
-<attribute name="NAME" x="-1.905" y="-65.786" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="12.446" y="-67.691" size="1.778" layer="96" rot="R180"/>
+<instance part="D3" gate="G$1" x="2.54" y="-63.5" smashed="yes" rot="R90" grouprefs="VOLTAGE_REGULATOR">
+<attribute name="NAME" x="0.635" y="-65.786" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="14.986" y="-67.691" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND18" gate="1" x="0" y="-68.58" smashed="yes" grouprefs="VOLTAGE_REGULATOR"/>
+<instance part="GND18" gate="1" x="2.54" y="-68.58" smashed="yes" grouprefs="VOLTAGE_REGULATOR"/>
 <instance part="LED2" gate="G$1" x="38.1" y="-73.66" smashed="yes" grouprefs="VOLTAGE_REGULATOR">
 <attribute name="NAME" x="31.496" y="-78.232" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="33.655" y="-78.232" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R11" gate="G$1" x="38.1" y="-66.04" smashed="yes" rot="R90" grouprefs="VOLTAGE_REGULATOR">
-<attribute name="NAME" x="36.6014" y="-69.85" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="41.402" y="-69.85" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="L3" gate="G$1" x="-43.18" y="-53.34" smashed="yes" grouprefs="VOLTAGE_REGULATOR">
 <attribute name="NAME" x="-50.8" y="-48.26" size="1.778" layer="95"/>
@@ -33772,7 +33769,7 @@ Part #: DMP3099L-7DICT-ND</description>
 <attribute name="VALUE" x="-119.38" y="1.27" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="D4" gate="G$1" x="-91.44" y="-10.16" smashed="yes" grouprefs="REVERSE_POLARITY_CURRENT">
-<attribute name="VALUE" x="-96.266" y="-18.669" size="1.778" layer="96"/>
+<attribute name="VALUE" x="-98.806" y="-13.589" size="1.778" layer="96"/>
 </instance>
 <instance part="D5" gate="G$1" x="-114.3" y="5.08" smashed="yes" rot="R270" grouprefs="REVERSE_POLARITY_CURRENT">
 <attribute name="VALUE" x="-120.269" y="7.366" size="1.778" layer="96"/>
@@ -33836,19 +33833,19 @@ Part #: DMP3099L-7DICT-ND</description>
 <attribute name="VALUE" x="-20.32" y="-172.72" size="1.27" layer="96"/>
 <attribute name="NAME" x="-20.32" y="-170.18" size="1.27" layer="95"/>
 </instance>
-<instance part="R9" gate="G$1" x="53.34" y="-132.08" smashed="yes" rot="R270" grouprefs="PULL_UP_RESISTOR">
-<attribute name="NAME" x="51.8414" y="-133.35" size="1.778" layer="95" rot="R90" align="bottom-right"/>
-<attribute name="VALUE" x="50.038" y="-130.81" size="1.778" layer="96" rot="R270" align="bottom-right"/>
+<instance part="R9" gate="G$1" x="81.28" y="-63.5" smashed="yes" rot="R270" grouprefs="PULL_UP_RESISTOR">
+<attribute name="NAME" x="79.7814" y="-64.77" size="1.778" layer="95" rot="R90" align="bottom-right"/>
+<attribute name="VALUE" x="77.978" y="-62.23" size="1.778" layer="96" rot="R270" align="bottom-right"/>
 </instance>
-<instance part="R16" gate="G$1" x="60.96" y="-132.08" smashed="yes" rot="R270" grouprefs="PULL_UP_RESISTOR">
-<attribute name="NAME" x="59.4614" y="-133.35" size="1.778" layer="95" rot="R90" align="bottom-right"/>
-<attribute name="VALUE" x="59.182" y="-130.81" size="1.778" layer="96" rot="R90"/>
+<instance part="R16" gate="G$1" x="88.9" y="-63.5" smashed="yes" rot="R270" grouprefs="PULL_UP_RESISTOR">
+<attribute name="NAME" x="87.4014" y="-64.77" size="1.778" layer="95" rot="R90" align="bottom-right"/>
+<attribute name="VALUE" x="87.122" y="-62.23" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="+3V8" gate="G$1" x="53.34" y="-121.92" smashed="yes" grouprefs="PULL_UP_RESISTOR">
-<attribute name="VALUE" x="55.88" y="-119.38" size="1.27" layer="96" font="vector" rot="R180"/>
+<instance part="+3V8" gate="G$1" x="81.28" y="-53.34" smashed="yes" grouprefs="PULL_UP_RESISTOR">
+<attribute name="VALUE" x="83.82" y="-50.8" size="1.27" layer="96" font="vector" rot="R180"/>
 </instance>
-<instance part="+3V9" gate="G$1" x="60.96" y="-121.92" smashed="yes" grouprefs="PULL_UP_RESISTOR">
-<attribute name="VALUE" x="63.5" y="-119.38" size="1.27" layer="96" font="vector" rot="R180"/>
+<instance part="+3V9" gate="G$1" x="88.9" y="-53.34" smashed="yes" grouprefs="PULL_UP_RESISTOR">
+<attribute name="VALUE" x="91.44" y="-50.8" size="1.27" layer="96" font="vector" rot="R180"/>
 </instance>
 <instance part="C18" gate="G$1" x="-60.96" y="-116.84" smashed="yes" grouprefs="RTC_CIRCUIT">
 <attribute name="NAME" x="-59.944" y="-116.205" size="1.778" layer="95"/>
@@ -33857,12 +33854,12 @@ Part #: DMP3099L-7DICT-ND</description>
 <instance part="SUPPLY1" gate="G$1" x="-139.7" y="-99.06" smashed="yes" rot="R270" grouprefs="MCU">
 <attribute name="VALUE" x="-142.24" y="-99.06" size="1.27" layer="96" font="vector" align="center-right"/>
 </instance>
-<instance part="R17" gate="G$1" x="30.48" y="-132.08" smashed="yes" rot="MR90" grouprefs="PULL_UP_RESISTOR">
-<attribute name="NAME" x="28.9814" y="-133.35" size="1.778" layer="95" rot="MR270"/>
-<attribute name="VALUE" x="27.178" y="-130.81" size="1.778" layer="96" rot="MR90"/>
+<instance part="R17" gate="G$1" x="58.42" y="-63.5" smashed="yes" rot="MR90" grouprefs="PULL_UP_RESISTOR">
+<attribute name="NAME" x="56.9214" y="-64.77" size="1.27" layer="95" rot="MR270"/>
+<attribute name="VALUE" x="55.118" y="-62.23" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="+3V12" gate="G$1" x="30.48" y="-121.92" smashed="yes" rot="MR0" grouprefs="PULL_UP_RESISTOR">
-<attribute name="VALUE" x="30.48" y="-119.38" size="1.27" layer="96" font="vector" rot="MR180" align="bottom-center"/>
+<instance part="+3V12" gate="G$1" x="58.42" y="-53.34" smashed="yes" rot="MR0" grouprefs="PULL_UP_RESISTOR">
+<attribute name="VALUE" x="58.42" y="-50.8" size="1.27" layer="96" font="vector" rot="MR180" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY3" gate="G$1" x="-76.2" y="-187.96" smashed="yes" grouprefs="ONBOARD_PRESSURE">
 <attribute name="VALUE" x="-73.66" y="-187.96" size="1.27" layer="96" font="vector" rot="R180" align="center-right"/>
@@ -33897,14 +33894,14 @@ Part #: DMP3099L-7DICT-ND</description>
 <instance part="SUPPLY14" gate="G$1" x="-35.56" y="-76.2" smashed="yes" grouprefs="VOLTAGE_REGULATOR">
 <attribute name="VALUE" x="-38.1" y="-78.74" size="1.27" layer="96" font="vector" rot="R180" align="center-right"/>
 </instance>
-<instance part="SUPPLY15" gate="G$1" x="22.86" y="-73.66" smashed="yes" grouprefs="VOLTAGE_REGULATOR">
-<attribute name="VALUE" x="20.32" y="-76.2" size="1.27" layer="96" font="vector" rot="R180" align="center-right"/>
+<instance part="SUPPLY15" gate="G$1" x="25.4" y="-73.66" smashed="yes" grouprefs="VOLTAGE_REGULATOR">
+<attribute name="VALUE" x="22.86" y="-76.2" size="1.27" layer="96" font="vector" rot="R180" align="center-right"/>
 </instance>
 <instance part="SUPPLY16" gate="G$1" x="38.1" y="-81.28" smashed="yes" grouprefs="VOLTAGE_REGULATOR">
 <attribute name="VALUE" x="35.56" y="-83.82" size="1.27" layer="96" font="vector" rot="R180" align="center-right"/>
 </instance>
-<instance part="SUPPLY17" gate="G$1" x="71.12" y="-101.6" smashed="yes" grouprefs="SLEEPINDICATORS">
-<attribute name="VALUE" x="68.58" y="-104.14" size="1.27" layer="96" font="vector" rot="R180" align="center-right"/>
+<instance part="SUPPLY17" gate="G$1" x="45.72" y="-147.32" smashed="yes" grouprefs="SLEEPINDICATORS">
+<attribute name="VALUE" x="43.18" y="-149.86" size="1.27" layer="96" font="vector" rot="R180" align="center-right"/>
 </instance>
 <instance part="SUPPLY22" gate="G$1" x="-50.8" y="-129.54" smashed="yes" grouprefs="RTC_CIRCUIT">
 <attribute name="VALUE" x="-53.34" y="-132.08" size="1.27" layer="96" font="vector" rot="R180" align="center-right"/>
@@ -33936,8 +33933,8 @@ Part #: DMP3099L-7DICT-ND</description>
 <instance part="+3V14" gate="G$1" x="-55.88" y="-154.94" smashed="yes" rot="R90" grouprefs="SENSOR_CONNECTORS">
 <attribute name="VALUE" x="-53.34" y="-152.4" size="1.27" layer="96" rot="R180"/>
 </instance>
-<instance part="SUPPLY25" gate="G$1" x="96.52" y="-88.9" smashed="yes" rot="R270" grouprefs="SLEEPINDICATORS">
-<attribute name="VALUE" x="93.98" y="-88.9" size="1.27" layer="96" font="vector" align="center-right"/>
+<instance part="SUPPLY25" gate="G$1" x="71.12" y="-134.62" smashed="yes" rot="R270" grouprefs="SLEEPINDICATORS">
+<attribute name="VALUE" x="68.58" y="-134.62" size="1.27" layer="96" font="vector" align="center-right"/>
 </instance>
 <instance part="R6" gate="G$1" x="-45.72" y="-22.86" smashed="yes" rot="R270" grouprefs="MOSFET_POWER_SWITCH">
 <attribute name="NAME" x="-44.2214" y="-19.05" size="1.778" layer="95" rot="R270"/>
@@ -34003,19 +34000,27 @@ Part #: DMP3099L-7DICT-ND</description>
 <instance part="P+15" gate="1" x="-15.24" y="-154.94" smashed="yes" rot="R90" grouprefs="SENSOR_CONNECTORS">
 <attribute name="VALUE" x="-12.7" y="-152.4" size="1.27" layer="96" font="vector" align="center-right"/>
 </instance>
-<instance part="R19" gate="G$1" x="68.58" y="-132.08" smashed="yes" rot="R270" grouprefs="PULL_UP_RESISTOR">
-<attribute name="NAME" x="67.0814" y="-133.35" size="1.778" layer="95" rot="R90" align="bottom-right"/>
-<attribute name="VALUE" x="66.802" y="-130.81" size="1.778" layer="96" rot="R90"/>
+<instance part="R19" gate="G$1" x="96.52" y="-63.5" smashed="yes" rot="R270" grouprefs="PULL_UP_RESISTOR">
+<attribute name="NAME" x="95.0214" y="-64.77" size="1.778" layer="95" rot="R90" align="bottom-right"/>
+<attribute name="VALUE" x="94.742" y="-62.23" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R20" gate="G$1" x="76.2" y="-132.08" smashed="yes" rot="R270" grouprefs="PULL_UP_RESISTOR">
-<attribute name="NAME" x="74.7014" y="-133.35" size="1.778" layer="95" rot="R90" align="bottom-right"/>
-<attribute name="VALUE" x="74.422" y="-130.81" size="1.778" layer="96" rot="R90"/>
+<instance part="R20" gate="G$1" x="104.14" y="-63.5" smashed="yes" rot="R270" grouprefs="PULL_UP_RESISTOR">
+<attribute name="NAME" x="102.6414" y="-64.77" size="1.778" layer="95" rot="R90" align="bottom-right"/>
+<attribute name="VALUE" x="102.362" y="-62.23" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="P+16" gate="1" x="68.58" y="-121.92" smashed="yes" grouprefs="PULL_UP_RESISTOR">
-<attribute name="VALUE" x="68.58" y="-119.38" size="1.27" layer="96" font="vector" rot="R180" align="center-right"/>
+<instance part="P+16" gate="1" x="96.52" y="-53.34" smashed="yes" grouprefs="PULL_UP_RESISTOR">
+<attribute name="VALUE" x="96.52" y="-50.8" size="1.27" layer="96" font="vector" rot="R180" align="center-right"/>
 </instance>
-<instance part="P+21" gate="1" x="76.2" y="-121.92" smashed="yes" grouprefs="PULL_UP_RESISTOR">
-<attribute name="VALUE" x="76.2" y="-119.38" size="1.27" layer="96" font="vector" align="center-right"/>
+<instance part="P+21" gate="1" x="104.14" y="-53.34" smashed="yes" grouprefs="PULL_UP_RESISTOR">
+<attribute name="VALUE" x="104.14" y="-50.8" size="1.27" layer="96" font="vector" align="center-right"/>
+</instance>
+<instance part="R11" gate="G$1" x="38.1" y="-66.04" smashed="yes" rot="R90">
+<attribute name="NAME" x="36.6014" y="-69.85" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="41.402" y="-69.85" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R21" gate="G$1" x="-30.48" y="-58.42" smashed="yes" rot="R90">
+<attribute name="NAME" x="-31.9786" y="-62.23" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-27.178" y="-62.23" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -34029,8 +34034,8 @@ Part #: DMP3099L-7DICT-ND</description>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="45.72" y1="-137.16" x2="45.72" y2="-139.7" width="0.1524" layer="91" grouprefs="PULL_UP_RESISTOR"/>
-<label x="45.72" y="-139.7" size="1.27" layer="95" font="vector" rot="MR270" xref="yes" grouprefs="PULL_UP_RESISTOR"/>
+<wire x1="73.66" y1="-68.58" x2="73.66" y2="-71.12" width="0.1524" layer="91" grouprefs="PULL_UP_RESISTOR"/>
+<label x="73.66" y="-71.12" size="1.27" layer="95" font="vector" rot="MR270" xref="yes" grouprefs="PULL_UP_RESISTOR"/>
 </segment>
 <segment>
 <pinref part="RTC" gate="A" pin="SCL"/>
@@ -34059,8 +34064,8 @@ Part #: DMP3099L-7DICT-ND</description>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="38.1" y1="-137.16" x2="38.1" y2="-139.7" width="0.1524" layer="91" grouprefs="PULL_UP_RESISTOR"/>
-<label x="38.1" y="-139.7" size="1.27" layer="95" font="vector" rot="MR270" xref="yes" grouprefs="PULL_UP_RESISTOR"/>
+<wire x1="66.04" y1="-68.58" x2="66.04" y2="-71.12" width="0.1524" layer="91" grouprefs="PULL_UP_RESISTOR"/>
+<label x="66.04" y="-71.12" size="1.27" layer="95" font="vector" rot="MR270" xref="yes" grouprefs="PULL_UP_RESISTOR"/>
 </segment>
 <segment>
 <pinref part="RTC" gate="A" pin="SDA"/>
@@ -34088,9 +34093,9 @@ Part #: DMP3099L-7DICT-ND</description>
 <pinref part="MS1" gate="G$1" pin="GPIOA3"/>
 </segment>
 <segment>
-<wire x1="53.34" y1="-137.16" x2="53.34" y2="-139.7" width="0.1524" layer="91" grouprefs="PULL_UP_RESISTOR"/>
+<wire x1="81.28" y1="-68.58" x2="81.28" y2="-71.12" width="0.1524" layer="91" grouprefs="PULL_UP_RESISTOR"/>
 <pinref part="R9" gate="G$1" pin="2"/>
-<label x="53.34" y="-139.7" size="1.27" layer="95" font="vector" rot="R270" xref="yes" grouprefs="PULL_UP_RESISTOR"/>
+<label x="81.28" y="-71.12" size="1.27" layer="95" font="vector" rot="R270" xref="yes" grouprefs="PULL_UP_RESISTOR"/>
 </segment>
 <segment>
 <pinref part="ANALOG1" gate="G$1" pin="P3"/>
@@ -34111,8 +34116,8 @@ Part #: DMP3099L-7DICT-ND</description>
 </segment>
 <segment>
 <pinref part="R16" gate="G$1" pin="2"/>
-<wire x1="60.96" y1="-137.16" x2="60.96" y2="-139.7" width="0.1524" layer="91" grouprefs="PULL_UP_RESISTOR"/>
-<label x="60.96" y="-139.7" size="1.27" layer="95" font="vector" rot="R270" xref="yes" grouprefs="PULL_UP_RESISTOR"/>
+<wire x1="88.9" y1="-68.58" x2="88.9" y2="-71.12" width="0.1524" layer="91" grouprefs="PULL_UP_RESISTOR"/>
+<label x="88.9" y="-71.12" size="1.27" layer="95" font="vector" rot="R270" xref="yes" grouprefs="PULL_UP_RESISTOR"/>
 </segment>
 </net>
 <net name="HB_IN1" class="0">
@@ -34132,22 +34137,22 @@ Part #: DMP3099L-7DICT-ND</description>
 <net name="+3V3" class="0">
 <segment>
 <pinref part="SWITCH" gate="G$1" pin="5"/>
-<wire x1="101.6" y1="-86.36" x2="99.06" y2="-86.36" width="0.1524" layer="91" grouprefs="SLEEPINDICATORS"/>
+<wire x1="76.2" y1="-132.08" x2="73.66" y2="-132.08" width="0.1524" layer="91" grouprefs="SLEEPINDICATORS"/>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
 <pinref part="P_MOS" gate="G$1" pin="S"/>
-<wire x1="71.12" y1="-60.96" x2="71.12" y2="-63.5" width="0.1524" layer="91" grouprefs="SLEEPINDICATORS"/>
+<wire x1="45.72" y1="-106.68" x2="45.72" y2="-109.22" width="0.1524" layer="91" grouprefs="SLEEPINDICATORS"/>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="45.72" y1="-127" x2="45.72" y2="-124.46" width="0.1524" layer="91" grouprefs="PULL_UP_RESISTOR"/>
+<wire x1="73.66" y1="-58.42" x2="73.66" y2="-55.88" width="0.1524" layer="91" grouprefs="PULL_UP_RESISTOR"/>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="38.1" y1="-127" x2="38.1" y2="-124.46" width="0.1524" layer="91" grouprefs="PULL_UP_RESISTOR"/>
+<wire x1="66.04" y1="-58.42" x2="66.04" y2="-55.88" width="0.1524" layer="91" grouprefs="PULL_UP_RESISTOR"/>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
@@ -34196,17 +34201,17 @@ Part #: DMP3099L-7DICT-ND</description>
 </segment>
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="-127" x2="53.34" y2="-124.46" width="0.1524" layer="91" grouprefs="PULL_UP_RESISTOR"/>
+<wire x1="81.28" y1="-58.42" x2="81.28" y2="-55.88" width="0.1524" layer="91" grouprefs="PULL_UP_RESISTOR"/>
 <pinref part="+3V8" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
 <pinref part="R16" gate="G$1" pin="1"/>
-<wire x1="60.96" y1="-127" x2="60.96" y2="-124.46" width="0.1524" layer="91" grouprefs="PULL_UP_RESISTOR"/>
+<wire x1="88.9" y1="-58.42" x2="88.9" y2="-55.88" width="0.1524" layer="91" grouprefs="PULL_UP_RESISTOR"/>
 <pinref part="+3V9" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
 <pinref part="R17" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="-127" x2="30.48" y2="-124.46" width="0.1524" layer="91" grouprefs="PULL_UP_RESISTOR"/>
+<wire x1="58.42" y1="-58.42" x2="58.42" y2="-55.88" width="0.1524" layer="91" grouprefs="PULL_UP_RESISTOR"/>
 <pinref part="+3V12" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
@@ -34228,12 +34233,12 @@ Part #: DMP3099L-7DICT-ND</description>
 </segment>
 <segment>
 <pinref part="R19" gate="G$1" pin="1"/>
-<wire x1="68.58" y1="-127" x2="68.58" y2="-124.46" width="0.1524" layer="91" grouprefs="PULL_UP_RESISTOR"/>
+<wire x1="96.52" y1="-58.42" x2="96.52" y2="-55.88" width="0.1524" layer="91" grouprefs="PULL_UP_RESISTOR"/>
 <pinref part="P+16" gate="1" pin="+5V"/>
 </segment>
 <segment>
 <pinref part="R20" gate="G$1" pin="1"/>
-<wire x1="76.2" y1="-127" x2="76.2" y2="-124.46" width="0.1524" layer="91" grouprefs="PULL_UP_RESISTOR"/>
+<wire x1="104.14" y1="-58.42" x2="104.14" y2="-55.88" width="0.1524" layer="91" grouprefs="PULL_UP_RESISTOR"/>
 <pinref part="P+21" gate="1" pin="+5V"/>
 </segment>
 </net>
@@ -34284,8 +34289,8 @@ Part #: DMP3099L-7DICT-ND</description>
 </net>
 <net name="WAKE_NOSLEEP" class="0">
 <segment>
-<wire x1="78.74" y1="-66.04" x2="81.28" y2="-66.04" width="0.1524" layer="91" grouprefs="SLEEPINDICATORS"/>
-<label x="81.28" y="-66.04" size="1.27" layer="95" font="vector" xref="yes" grouprefs="SLEEPINDICATORS"/>
+<wire x1="53.34" y1="-111.76" x2="55.88" y2="-111.76" width="0.1524" layer="91" grouprefs="SLEEPINDICATORS"/>
+<label x="55.88" y="-111.76" size="1.27" layer="95" font="vector" xref="yes" grouprefs="SLEEPINDICATORS"/>
 <pinref part="P_MOS" gate="G$1" pin="G"/>
 </segment>
 <segment>
@@ -34295,8 +34300,8 @@ Part #: DMP3099L-7DICT-ND</description>
 </segment>
 <segment>
 <pinref part="SWITCH" gate="G$1" pin="2"/>
-<wire x1="101.6" y1="-93.98" x2="99.06" y2="-93.98" width="0.1524" layer="91" grouprefs="SLEEPINDICATORS"/>
-<label x="99.06" y="-93.98" size="1.27" layer="95" font="vector" rot="R180" xref="yes" grouprefs="SLEEPINDICATORS"/>
+<wire x1="76.2" y1="-139.7" x2="73.66" y2="-139.7" width="0.1524" layer="91" grouprefs="SLEEPINDICATORS"/>
+<label x="73.66" y="-139.7" size="1.27" layer="95" font="vector" rot="R180" xref="yes" grouprefs="SLEEPINDICATORS"/>
 </segment>
 </net>
 <net name="SHIFT_DATA" class="0">
@@ -34331,7 +34336,7 @@ Part #: DMP3099L-7DICT-ND</description>
 <segment>
 <pinref part="P_MOS" gate="G$1" pin="D"/>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="71.12" y1="-73.66" x2="71.12" y2="-76.2" width="0.1524" layer="91" grouprefs="SLEEPINDICATORS"/>
+<wire x1="45.72" y1="-119.38" x2="45.72" y2="-121.92" width="0.1524" layer="91" grouprefs="SLEEPINDICATORS"/>
 </segment>
 </net>
 <net name="BATTERY_READ" class="0">
@@ -34355,8 +34360,8 @@ Part #: DMP3099L-7DICT-ND</description>
 <net name="RTC_INT" class="0">
 <segment>
 <pinref part="SWITCH" gate="G$1" pin="3"/>
-<wire x1="101.6" y1="-91.44" x2="99.06" y2="-91.44" width="0.1524" layer="91" grouprefs="SLEEPINDICATORS"/>
-<label x="99.06" y="-91.44" size="1.27" layer="95" font="vector" rot="R180" xref="yes" grouprefs="SLEEPINDICATORS"/>
+<wire x1="76.2" y1="-137.16" x2="73.66" y2="-137.16" width="0.1524" layer="91" grouprefs="SLEEPINDICATORS"/>
+<label x="73.66" y="-137.16" size="1.27" layer="95" font="vector" rot="R180" xref="yes" grouprefs="SLEEPINDICATORS"/>
 </segment>
 <segment>
 <pinref part="RTC" gate="A" pin="!INT/SQW"/>
@@ -34370,8 +34375,8 @@ Part #: DMP3099L-7DICT-ND</description>
 </segment>
 <segment>
 <pinref part="R17" gate="G$1" pin="1"/>
-<wire x1="30.48" y1="-137.16" x2="30.48" y2="-139.7" width="0.1524" layer="91" grouprefs="PULL_UP_RESISTOR"/>
-<label x="30.48" y="-139.7" size="1.27" layer="95" font="vector" rot="R270" xref="yes" grouprefs="PULL_UP_RESISTOR"/>
+<wire x1="58.42" y1="-68.58" x2="58.42" y2="-71.12" width="0.1524" layer="91" grouprefs="PULL_UP_RESISTOR"/>
+<label x="58.42" y="-71.12" size="1.27" layer="95" font="vector" rot="R270" xref="yes" grouprefs="PULL_UP_RESISTOR"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -34438,26 +34443,20 @@ Part #: DMP3099L-7DICT-ND</description>
 <segment>
 <pinref part="VREG" gate="G$1" pin="CB"/>
 <pinref part="CBOOT" gate="G$1" pin="1"/>
-<wire x1="-5.08" y1="-53.34" x2="-2.54" y2="-53.34" width="0.1524" layer="91" grouprefs="VOLTAGE_REGULATOR"/>
+<wire x1="-2.54" y1="-53.34" x2="0" y2="-53.34" width="0.1524" layer="91" grouprefs="VOLTAGE_REGULATOR"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
 <pinref part="VREG" gate="G$1" pin="SW"/>
 <pinref part="CBOOT" gate="G$1" pin="2"/>
-<wire x1="-5.08" y1="-60.96" x2="0" y2="-60.96" width="0.1524" layer="91" grouprefs="VOLTAGE_REGULATOR"/>
+<wire x1="-2.54" y1="-60.96" x2="2.54" y2="-60.96" width="0.1524" layer="91" grouprefs="VOLTAGE_REGULATOR"/>
 <pinref part="L1" gate="G$1" pin="1"/>
-<junction x="2.54" y="-60.96" grouprefs="VOLTAGE_REGULATOR"/>
-<wire x1="2.54" y1="-60.96" x2="0" y2="-60.96" width="0.1524" layer="91" grouprefs="VOLTAGE_REGULATOR"/>
+<junction x="5.08" y="-60.96" grouprefs="VOLTAGE_REGULATOR"/>
+<wire x1="5.08" y1="-60.96" x2="2.54" y2="-60.96" width="0.1524" layer="91" grouprefs="VOLTAGE_REGULATOR"/>
 <pinref part="D3" gate="G$1" pin="C"/>
-<wire x1="0" y1="-60.96" x2="-2.54" y2="-60.96" width="0.1524" layer="91" grouprefs="VOLTAGE_REGULATOR"/>
-<junction x="0" y="-60.96" grouprefs="VOLTAGE_REGULATOR"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="R11" gate="G$1" pin="1"/>
-<pinref part="LED2" gate="G$1" pin="A"/>
+<wire x1="2.54" y1="-60.96" x2="0" y2="-60.96" width="0.1524" layer="91" grouprefs="VOLTAGE_REGULATOR"/>
+<junction x="2.54" y="-60.96" grouprefs="VOLTAGE_REGULATOR"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -34468,11 +34467,9 @@ Part #: DMP3099L-7DICT-ND</description>
 <pinref part="VREG" gate="G$1" pin="VIN"/>
 <wire x1="-35.56" y1="-53.34" x2="-30.48" y2="-53.34" width="0.1524" layer="91" grouprefs="VOLTAGE_REGULATOR"/>
 <junction x="-35.56" y="-53.34" grouprefs="VOLTAGE_REGULATOR"/>
-<pinref part="VREG" gate="G$1" pin="!SHDN"/>
-<wire x1="-30.48" y1="-53.34" x2="-27.94" y2="-53.34" width="0.1524" layer="91" grouprefs="VOLTAGE_REGULATOR"/>
-<wire x1="-27.94" y1="-63.5" x2="-30.48" y2="-63.5" width="0.1524" layer="91" grouprefs="VOLTAGE_REGULATOR"/>
-<wire x1="-30.48" y1="-63.5" x2="-30.48" y2="-53.34" width="0.1524" layer="91" grouprefs="VOLTAGE_REGULATOR"/>
-<junction x="-30.48" y="-53.34" grouprefs="VOLTAGE_REGULATOR"/>
+<pinref part="R21" gate="G$1" pin="2"/>
+<wire x1="-30.48" y1="-53.34" x2="-25.4" y2="-53.34" width="0.1524" layer="91" grouprefs="VOLTAGE_REGULATOR"/>
+<junction x="-30.48" y="-53.34"/>
 </segment>
 </net>
 <net name="+12V_NON_PROTECT" class="1">
@@ -34601,7 +34598,7 @@ Part #: DMP3099L-7DICT-ND</description>
 </segment>
 <segment>
 <pinref part="COUT" gate="G$1" pin="2"/>
-<wire x1="22.86" y1="-71.12" x2="22.86" y2="-68.58" width="0.1524" layer="91" grouprefs="VOLTAGE_REGULATOR"/>
+<wire x1="25.4" y1="-71.12" x2="25.4" y2="-68.58" width="0.1524" layer="91" grouprefs="VOLTAGE_REGULATOR"/>
 <pinref part="SUPPLY15" gate="G$1" pin="DGND"/>
 </segment>
 <segment>
@@ -34611,12 +34608,12 @@ Part #: DMP3099L-7DICT-ND</description>
 <segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
 <pinref part="SUPPLY17" gate="G$1" pin="DGND"/>
-<wire x1="71.12" y1="-99.06" x2="71.12" y2="-96.52" width="0.1524" layer="91" grouprefs="SLEEPINDICATORS"/>
-<wire x1="71.12" y1="-96.52" x2="63.5" y2="-96.52" width="0.1524" layer="91" grouprefs="SLEEPINDICATORS"/>
-<junction x="71.12" y="-96.52" grouprefs="SLEEPINDICATORS"/>
-<wire x1="63.5" y1="-96.52" x2="63.5" y2="-93.98" width="0.1524" layer="91" grouprefs="SLEEPINDICATORS"/>
+<wire x1="45.72" y1="-144.78" x2="45.72" y2="-142.24" width="0.1524" layer="91" grouprefs="SLEEPINDICATORS"/>
+<wire x1="45.72" y1="-142.24" x2="38.1" y2="-142.24" width="0.1524" layer="91" grouprefs="SLEEPINDICATORS"/>
+<junction x="45.72" y="-142.24" grouprefs="SLEEPINDICATORS"/>
+<wire x1="38.1" y1="-142.24" x2="38.1" y2="-139.7" width="0.1524" layer="91" grouprefs="SLEEPINDICATORS"/>
 <pinref part="LED" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="-93.98" x2="57.15" y2="-93.98" width="0.1524" layer="91" grouprefs="SLEEPINDICATORS"/>
+<wire x1="38.1" y1="-139.7" x2="31.75" y2="-139.7" width="0.1524" layer="91" grouprefs="SLEEPINDICATORS"/>
 </segment>
 <segment>
 <pinref part="RTC" gate="A" pin="GND"/>
@@ -34695,7 +34692,7 @@ Part #: DMP3099L-7DICT-ND</description>
 <wire x1="-50.8" y1="-66.04" x2="-50.8" y2="-71.12" width="0.1524" layer="91" grouprefs="VOLTAGE_REGULATOR"/>
 <wire x1="-50.8" y1="-71.12" x2="-35.56" y2="-71.12" width="0.1524" layer="91" grouprefs="VOLTAGE_REGULATOR"/>
 <pinref part="VREG" gate="G$1" pin="GND"/>
-<wire x1="-27.94" y1="-71.12" x2="-35.56" y2="-71.12" width="0.1524" layer="91" grouprefs="VOLTAGE_REGULATOR"/>
+<wire x1="-25.4" y1="-71.12" x2="-35.56" y2="-71.12" width="0.1524" layer="91" grouprefs="VOLTAGE_REGULATOR"/>
 <junction x="-35.56" y="-71.12" grouprefs="VOLTAGE_REGULATOR"/>
 <pinref part="SUPPLY14" gate="G$1" pin="DGND"/>
 <wire x1="-35.56" y1="-73.66" x2="-35.56" y2="-71.12" width="0.1524" layer="91" grouprefs="VOLTAGE_REGULATOR"/>
@@ -34703,7 +34700,7 @@ Part #: DMP3099L-7DICT-ND</description>
 </segment>
 <segment>
 <pinref part="SWITCH" gate="G$1" pin="4"/>
-<wire x1="101.6" y1="-88.9" x2="99.06" y2="-88.9" width="0.1524" layer="91" grouprefs="SLEEPINDICATORS"/>
+<wire x1="76.2" y1="-134.62" x2="73.66" y2="-134.62" width="0.1524" layer="91" grouprefs="SLEEPINDICATORS"/>
 <pinref part="SUPPLY25" gate="G$1" pin="DGND"/>
 </segment>
 <segment>
@@ -34757,13 +34754,13 @@ Part #: DMP3099L-7DICT-ND</description>
 <net name="N$9" class="0">
 <segment>
 <pinref part="LED" gate="G$1" pin="2"/>
-<wire x1="57.15" y1="-91.44" x2="63.5" y2="-91.44" width="0.1524" layer="91" grouprefs="SLEEPINDICATORS"/>
-<wire x1="63.5" y1="-91.44" x2="63.5" y2="-88.9" width="0.1524" layer="91" grouprefs="SLEEPINDICATORS"/>
+<wire x1="31.75" y1="-137.16" x2="38.1" y2="-137.16" width="0.1524" layer="91" grouprefs="SLEEPINDICATORS"/>
+<wire x1="38.1" y1="-137.16" x2="38.1" y2="-134.62" width="0.1524" layer="91" grouprefs="SLEEPINDICATORS"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
-<wire x1="71.12" y1="-88.9" x2="71.12" y2="-86.36" width="0.1524" layer="91" grouprefs="SLEEPINDICATORS"/>
-<wire x1="63.5" y1="-88.9" x2="71.12" y2="-88.9" width="0.1524" layer="91" grouprefs="SLEEPINDICATORS"/>
-<junction x="71.12" y="-88.9" grouprefs="SLEEPINDICATORS"/>
+<wire x1="45.72" y1="-134.62" x2="45.72" y2="-132.08" width="0.1524" layer="91" grouprefs="SLEEPINDICATORS"/>
+<wire x1="38.1" y1="-134.62" x2="45.72" y2="-134.62" width="0.1524" layer="91" grouprefs="SLEEPINDICATORS"/>
+<junction x="45.72" y="-134.62" grouprefs="SLEEPINDICATORS"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -34855,16 +34852,18 @@ Part #: DMP3099L-7DICT-ND</description>
 </segment>
 <segment>
 <pinref part="COUT" gate="G$1" pin="1"/>
-<wire x1="22.86" y1="-60.96" x2="17.78" y2="-60.96" width="0.1524" layer="91" grouprefs="VOLTAGE_REGULATOR"/>
-<junction x="22.86" y="-60.96" grouprefs="VOLTAGE_REGULATOR"/>
+<wire x1="25.4" y1="-60.96" x2="20.32" y2="-60.96" width="0.1524" layer="91" grouprefs="VOLTAGE_REGULATOR"/>
+<junction x="25.4" y="-60.96" grouprefs="VOLTAGE_REGULATOR"/>
 <pinref part="VREG" gate="G$1" pin="FB"/>
-<wire x1="-5.08" y1="-71.12" x2="17.78" y2="-71.12" width="0.1524" layer="91" grouprefs="VOLTAGE_REGULATOR"/>
-<wire x1="17.78" y1="-71.12" x2="17.78" y2="-60.96" width="0.1524" layer="91" grouprefs="VOLTAGE_REGULATOR"/>
+<wire x1="-2.54" y1="-71.12" x2="20.32" y2="-71.12" width="0.1524" layer="91" grouprefs="VOLTAGE_REGULATOR"/>
+<wire x1="20.32" y1="-71.12" x2="20.32" y2="-60.96" width="0.1524" layer="91" grouprefs="VOLTAGE_REGULATOR"/>
 <pinref part="L1" gate="G$1" pin="2"/>
-<junction x="17.78" y="-60.96" grouprefs="VOLTAGE_REGULATOR"/>
-<wire x1="22.86" y1="-60.96" x2="38.1" y2="-60.96" width="0.1524" layer="91" grouprefs="VOLTAGE_REGULATOR"/>
+<junction x="20.32" y="-60.96" grouprefs="VOLTAGE_REGULATOR"/>
+<wire x1="25.4" y1="-60.96" x2="38.1" y2="-60.96" width="0.1524" layer="91" grouprefs="VOLTAGE_REGULATOR"/>
+<label x="40.64" y="-60.96" size="1.27" layer="95" font="vector" xref="yes" grouprefs="VOLTAGE_REGULATOR"/>
 <pinref part="R11" gate="G$1" pin="2"/>
-<label x="38.1" y="-60.96" size="1.27" layer="95" font="vector" xref="yes" grouprefs="VOLTAGE_REGULATOR"/>
+<wire x1="38.1" y1="-60.96" x2="40.64" y2="-60.96" width="0.1524" layer="91"/>
+<junction x="38.1" y="-60.96"/>
 </segment>
 </net>
 <net name="3V_MCU" class="0">
@@ -34889,8 +34888,8 @@ Part #: DMP3099L-7DICT-ND</description>
 </segment>
 <segment>
 <pinref part="R19" gate="G$1" pin="2"/>
-<wire x1="68.58" y1="-137.16" x2="68.58" y2="-139.7" width="0.1524" layer="91" grouprefs="PULL_UP_RESISTOR"/>
-<label x="68.58" y="-139.7" size="1.27" layer="95" font="vector" rot="R270" xref="yes" grouprefs="PULL_UP_RESISTOR"/>
+<wire x1="96.52" y1="-68.58" x2="96.52" y2="-71.12" width="0.1524" layer="91" grouprefs="PULL_UP_RESISTOR"/>
+<label x="96.52" y="-71.12" size="1.27" layer="95" font="vector" rot="R270" xref="yes" grouprefs="PULL_UP_RESISTOR"/>
 </segment>
 </net>
 <net name="5V_SCL" class="0">
@@ -34901,8 +34900,21 @@ Part #: DMP3099L-7DICT-ND</description>
 </segment>
 <segment>
 <pinref part="R20" gate="G$1" pin="2"/>
-<wire x1="76.2" y1="-137.16" x2="76.2" y2="-139.7" width="0.1524" layer="91" grouprefs="PULL_UP_RESISTOR"/>
-<label x="76.2" y="-139.7" size="1.27" layer="95" font="vector" rot="R270" xref="yes" grouprefs="PULL_UP_RESISTOR"/>
+<wire x1="104.14" y1="-68.58" x2="104.14" y2="-71.12" width="0.1524" layer="91" grouprefs="PULL_UP_RESISTOR"/>
+<label x="104.14" y="-71.12" size="1.27" layer="95" font="vector" rot="R270" xref="yes" grouprefs="PULL_UP_RESISTOR"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="R11" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="VREG" gate="G$1" pin="!SHDN"/>
+<wire x1="-25.4" y1="-63.5" x2="-30.48" y2="-63.5" width="0.1524" layer="91" grouprefs="VOLTAGE_REGULATOR"/>
+<pinref part="R21" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
@@ -34910,6 +34922,7 @@ Part #: DMP3099L-7DICT-ND</description>
 <sheet>
 <description>Power</description>
 <plain>
+<text x="12.7" y="-205.74" size="1.778" layer="91">Add the necessary components to the logic Converter</text>
 </plain>
 <instances>
 <instance part="TPIC0" gate="G$1" x="43.18" y="-38.1" smashed="yes" grouprefs="SHIFT_REGISTERS">
@@ -34986,7 +34999,7 @@ Part #: DMP3099L-7DICT-ND</description>
 <attribute name="VALUE" x="29.21" y="-89.662" size="1.778" layer="96"/>
 </instance>
 <instance part="R13" gate="G$1" x="27.94" y="-116.84" smashed="yes" grouprefs="BALL_VALVE_CTRL">
-<attribute name="NAME" x="24.13" y="-115.3414" size="1.778" layer="95"/>
+<attribute name="NAME" x="21.59" y="-115.3414" size="1.778" layer="95"/>
 <attribute name="VALUE" x="29.21" y="-115.062" size="1.778" layer="96"/>
 </instance>
 <instance part="P+17" gate="1" x="15.24" y="-93.98" smashed="yes" rot="R90" grouprefs="BALL_VALVE_CTRL">

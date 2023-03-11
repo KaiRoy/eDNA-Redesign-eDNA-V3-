@@ -34931,8 +34931,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="NMOS" gate="G$1" x="-111.76" y="-2.54" smashed="yes" rot="MR90" grouprefs="REVERSE_POLARITY_CURRENT">
 <attribute name="VALUE" x="-119.38" y="1.27" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="D4" gate="G$1" x="-91.44" y="-10.16" smashed="yes" grouprefs="REVERSE_POLARITY_CURRENT">
-<attribute name="VALUE" x="-98.806" y="-13.589" size="1.778" layer="96"/>
+<instance part="D4" gate="G$1" x="-91.44" y="-9.144" smashed="yes" grouprefs="REVERSE_POLARITY_CURRENT">
+<attribute name="VALUE" x="-98.806" y="-12.573" size="1.778" layer="96"/>
 </instance>
 <instance part="D5" gate="G$1" x="-114.3" y="5.08" smashed="yes" rot="R270" grouprefs="REVERSE_POLARITY_CURRENT">
 <attribute name="VALUE" x="-120.269" y="7.366" size="1.778" layer="96"/>
@@ -35855,7 +35855,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="SUPPLY13" gate="G$1" pin="DGND"/>
 <wire x1="-91.44" y1="-17.78" x2="-91.44" y2="-15.24" width="0.1524" layer="91" grouprefs="REVERSE_POLARITY_CURRENT"/>
 <pinref part="CIN2" gate="G$1" pin="2"/>
-<wire x1="-91.44" y1="-15.24" x2="-91.44" y2="-12.7" width="0.1524" layer="91" grouprefs="REVERSE_POLARITY_CURRENT"/>
+<wire x1="-91.44" y1="-15.24" x2="-91.44" y2="-11.684" width="0.1524" layer="91" grouprefs="REVERSE_POLARITY_CURRENT"/>
 <wire x1="-78.74" y1="-12.7" x2="-78.74" y2="-15.24" width="0.1524" layer="91" grouprefs="REVERSE_POLARITY_CURRENT"/>
 <wire x1="-78.74" y1="-15.24" x2="-91.44" y2="-15.24" width="0.1524" layer="91" grouprefs="REVERSE_POLARITY_CURRENT"/>
 <junction x="-91.44" y="-15.24" grouprefs="REVERSE_POLARITY_CURRENT"/>
@@ -36094,7 +36094,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <junction x="-106.68" y="-2.54" grouprefs="REVERSE_POLARITY_CURRENT"/>
 <pinref part="D4" gate="G$1" pin="C"/>
 <wire x1="-106.68" y1="-2.54" x2="-91.44" y2="-2.54" width="0.1524" layer="91" grouprefs="REVERSE_POLARITY_CURRENT"/>
-<wire x1="-91.44" y1="-2.54" x2="-91.44" y2="-7.62" width="0.1524" layer="91" grouprefs="REVERSE_POLARITY_CURRENT"/>
+<wire x1="-91.44" y1="-2.54" x2="-91.44" y2="-6.604" width="0.1524" layer="91" grouprefs="REVERSE_POLARITY_CURRENT"/>
 <wire x1="-91.44" y1="-2.54" x2="-78.74" y2="-2.54" width="0.1524" layer="91" grouprefs="REVERSE_POLARITY_CURRENT"/>
 <junction x="-91.44" y="-2.54" grouprefs="REVERSE_POLARITY_CURRENT"/>
 <pinref part="D5" gate="G$1" pin="C"/>

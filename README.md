@@ -1,29 +1,42 @@
-# eDNA Board V3 - A Redesign of the OPEnS Lab's eDNA Control Board
+# eDNA Board V3.0 - A Redesign of the OPEnS Lab's eDNA Control Board
 
 ## Table of Contents
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
 - [Description](#description)
-- [Installation](#installation)
+- [Design](#design)
+- [Current State](#current-state-of-the-project)
+- [What would I do differently? What changes would I make?](#what-would-i-do-differently-what-changes-would-i-make)
+- [Installation](#installation) <!-- Should I have Installation and Usage above or below the Design, Current State, Changes, etc? -->
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+
+## Design
+
+
+
+## Current State of the Project
+
+
+
+## What would I do differently? What changes would I make?
 
 
 
 ## Installation
 
-What libraries and files are needed for this project?
+What EDA libraries and files are needed for this project?
+- eDNA Library
+- Various Component Libraries
+<!-- Make a singular Library for all of the components Symbols and footprints -->
+<!-- Insert a link to a library guide or make my own -->
+
+<!-- Add a link to the firmware installation guide -->
+<!-- Note which code version to use -->
 
 ## Usage
 
@@ -38,12 +51,18 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 ## Credits
 
 List your collaborators, if any, with links to their GitHub profiles.
+<!-- Nathan Jesudason - Code Changes -->
 
 If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+<!-- Hypnos Board -->
+<!-- Link the Symbols and Footprints used? -->
 
 If you followed tutorials, include links to those here as well.
+<!-- Did not follow any tutorial during this design -->
 
 ## License
+
+<!-- Check What License the eDNA Board falls under -->
 
 The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
 

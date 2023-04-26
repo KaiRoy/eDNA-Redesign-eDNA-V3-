@@ -15,7 +15,9 @@
 
 I have worked on the eDNA project at the OPEnS Lab for the past two years and during that time I noticed a couple of things that I wanted to change about the electronics board (Dubbed eDNA Electronics V2). I never had the time to make those changes so I decided to make a Project course out of it to ensure that I would. This meant I had to limit the number of changes that I wanted to make for time purposes. Here were the goals for the project/redesign:
 - Allowing for 5V sensor support (mainly I2C sensors)
-- 
+- Redesigning the Power Management Circuits to allow for multiple wake-from-sleep interrupts
+- Redesign the PCB Layout to make certain Connectors easier to access.
+- Write Documentation for this version and the previous version, since it does not exist
 
 ## Design
 
@@ -23,11 +25,19 @@ I have worked on the eDNA project at the OPEnS Lab for the past two years and du
 
 ## Current State of the Project
 
-
+- Rewire the Sleep LED
+- Rewire the RTC_INT Pull-Up Resistor
 
 ## What would I do differently? What changes would I make?
 
+What I would recommend for the next OPEnS Lab Version:
+- Find a new Voltage Regulator IC/Redesign the Vreg Circuit
+- Find a new Shift Register IC/
+- Redesign the Shift Registers to use the existing SPI Pins on the Feather M0
 
+
+For my own personal version (outside of the OPEnS Lab):
+- 
 
 ## Installation
 

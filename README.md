@@ -1,5 +1,7 @@
 # eDNA Board V3.0 - A Redesign of the OPEnS Lab's eDNA Control Board
 
+<!-- Insert Image of eDNA V3.0 -->
+
 ## Table of Contents
 
 - [Description](#description)
@@ -11,23 +13,29 @@
 - [Credits](#credits)
 - [License](#license)
 
-## Description	<!-- Read and Update this area-->
+## Description
 
-I have worked on the eDNA project at the OPEnS Lab for the past two years and during that time I noticed a couple of things that I wanted to change about the electronics board (Dubbed eDNA Electronics V2). I never had the time to make those changes so I decided to make a Project course out of it to ensure that I would. This meant I had to limit the number of changes that I wanted to make for time purposes. Here were the goals for the project/redesign:
-- Allowing for 5V sensor support (mainly I2C sensors)
-- Redesigning the Power Management Circuits to allow for multiple wake-from-sleep interrupts
-- Write Documentation for this version and the previous version, since it does not exist
+I have worked on the eDNA project at the OPEnS Lab for the past two years and during that time I noticed a couple of things that I wanted to change about the current electronics board (Dubbed eDNA Electronics V2). Because of other responsiblities, I never had the time to make those changes so I decided to make a Project Course out of it to ensure that I would have the time. This meant I had to limit the number of changes that I wanted to make for time purposes. Here were the goals for the project/redesign:
+- Allowing for 5V sensor support (mainly I2C sensor support)
+- Redesigning the Power Management Circuits to allow for easier integration of wake-from-sleep interrupts
+- Write Documentation for this version and the previous version, since no documentation does not exist
 
 
-## Design	<!-- Read and Update this area-->
+## Designs
 
-Most of the circuits on this board have already been designed and I had no intention of fundamentally changing them in this redesign. The main circuits being redesigned are the sleep circuits and the logic level converter circuit. The other circuits only get changed on the PCB Layout level, changing as many two-terminal components from 1206 to 0805 and general rearrangement of the PCB Layout.
+Most of the circuits on this board have already been designed and I had no intention of fundamentally changing them in this redesign. The circuits that are being redesigned are the sleep/power management circuit and the logic level converter circuit. The other circuits only get changed on the PCB Layout level, changing as many two-terminal components from 1206 to 0805 and general rearrangement of the PCB Layout.
 
-The problem with the old sleep circuit was that to conserve power, it disabled the output of the voltage regulator. Because of this, the microcontroller was completely off, preventing conventional interrupt wake functionality. To wake up the system, the previous designer created a circuit based on a D Flip Flop where the interrupt from the RTC would trigger the D Flip Flop to enable the Voltage Regulator. This makes it difficult to add additional external interrupts to wake the system from sleep. We encountered this problem when we tried to add a button that would wake the system from sleep and trigger an operation.
+<!-- Insert Image of eDNA V2 Power Managment Circuit -->
 
-The benefit of this circuit is that no components can passively consume power when not in use (when in sleep). But this type of circuit is not the only one to stop the passive consumption of unnecessary components. Another project from the OPEnS Lab created a circuit that is used by the majority of projects at the OPEnS Lab, the eDNA project being one of the projects that do not. This project called the Hypnos Board, uses a series of MOSFETs to enable and disable power lines going to peripheral devices. If every circuit except the voltage regulator and microcontroller connects to the MOSFET-controlled power lines, then the only circuit consuming power would be the voltage regulator. According to other employees at the OPEnS Lab and to online research, the OPEnS Lab microcontroller of choice, the Adafruit Feather M0, consumes 1-2mA of current while in a software sleep. Based on the size of the battery, power consumption during operation, and the size of the battery, the approximate current draw while in sleep should be little enough that the sampler can complete a full 24 operations over the course of 30 days, which is what the eDNA Sampler was designed to be able to do. 
+The power management (PM) system was designed to disable the output of the voltage regulator (Vreg). This would conserve a lot of power as most of the circuits and devices would be powered off, with only the RTC and parts of the PM circuit still functioning. This circuit work by using a D Flip Flop connected to the Microcontroller and the RTC to enable or disable the output of the Vreg Circuit. Because of this design, the microcontroller was completely off with only the RTC Interrupt able to wake up the microcontroller. This makes it difficult to add additional external interrupts to wake the system from sleep. We encountered this problem when we tried to add a button that would wake the system from sleep and trigger an operation.
 
-The change in the logic level converter circuit was needed because 5V I2C sensor support was desired for the eDNA Sampler. This is because many I2C sensors function off of 5V and limiting the system to only 3.3V I2C sensors can make it difficult to add desired features or functionality. The current logic level converter, a module from Sparkfun, only has 4-channels of conversion with three already in use. The second reason was that the current. Since the circuit needed to be changed anyway, instead of using a module, an IC was found to serve the purpose. The IC found was the TXS0108E.
+<!-- Insert Image of Hypnos V3.4 Power Managment Circuit -->
+
+Another project from the OPEnS Lab created a PM circuit that is used by the majority of projects at the OPEnS Lab, the eDNA project being one of the few projects that do not. This project, called the Hypnos Board, uses a series of MOSFETs to enable and disable power lines going to peripheral devices, leaving the microcontroller powered. We can further conserve power by putting the microctronller into a deep sleep. This will allow us to easily add new wake-from-sleep interrupts while still conserving power.
+
+According to other employees at the OPEnS Lab and some online research the Adafruit Feather M0, the OPEnS Lab's Microcontroller of choice, consumes 1-2mA of current while in a software sleep. Based on the size of the battery, power consumption during operation, and the size of the battery, the approximate current draw while in sleep should be little enough that the sampler can complete a full 24 operations over the course of 30 days, which is what the eDNA Sampler was designed to be able to do. 
+
+The change in the logic level converter circuit was needed because 5V I2C sensor support was desired for the eDNA Sampler. This is because many I2C sensors function off of 5V and limiting the system to only 3.3V I2C sensors can make it difficult to add desired features or functionality. The current logic level converter, a module from Sparkfun, only has 4-channels of conversion with three already in use. Since the circuit needed to be changed anyway, instead of using a module like the one from SparkFun, an IC was found to serve the purpose. The IC used in the v3.0 is the TXS0108E, an eight channel logic level converter.
 
 
 ## Current State of the Project 	<!-- Read and Update this area -->
@@ -92,10 +100,11 @@ If your project has a lot of features, list them here.
 ## Credits
 
 List your collaborators, if any, with links to their GitHub profiles.
-- Nathan Jesudason: [Code]() Changes for testing
+- Nathan Jesudason: [Code](https://github.com/OPEnSLab-OSU/ednaServer/tree/54-revamp-sleep-system) Changes for testing
 
 If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-- OPEnS Lab's [Hypnos]() Board
+- OPEnS Lab's [Hypnos Board V3.4](https://github.com/OPEnSLab-OSU/OPEnS-Hypnos)
+- Microcontroller code for testing: [ednaServer]()
 <!-- Link the Symbols and Footprints used? -->
 
 ## License

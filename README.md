@@ -25,7 +25,7 @@ I have worked on the eDNA project at the OPEnS Lab for the past two years and du
 
 Most of the circuits on this board have already been designed and I had no intention of fundamentally changing them in this redesign. The circuits that are being redesigned are the sleep/power management circuit and the logic level converter circuit. The other circuits only get changed on the PCB Layout level, changing as many two-terminal components from 1206 to 0805 and general rearrangement of the PCB Layout.
 
-<!-- Insert Image of eDNA V2 Power Managment Circuit -->
+<!-- Insert Images of eDNA V2 Power Managment Circuit -->
 
 The power management (PM) system was designed to disable the output of the voltage regulator (Vreg). This would conserve a lot of power as most of the circuits and devices would be powered off, with only the RTC and parts of the PM circuit still functioning. This circuit work by using a D Flip Flop connected to the Microcontroller and the RTC to enable or disable the output of the Vreg Circuit. Because of this design, the microcontroller was completely off with only the RTC Interrupt able to wake up the microcontroller. This makes it difficult to add additional external interrupts to wake the system from sleep. We encountered this problem when we tried to add a button that would wake the system from sleep and trigger an operation.
 
@@ -40,30 +40,36 @@ The change in the logic level converter circuit was needed because 5V I2C sensor
 
 ## Current State of the Project 	<!-- Read and Update this area -->
 
-I have met two of the four requirements, and have sort of met a third requirement. The two requirements that I have met are the 5V sensors support and the documentation requirements. I wrote up a document explaining the function of each circuit and why certain decisions were made when designing those circuits. I showed this document to one of my bosses during a meeting and they were satisfied with the result. Especially considering no documentation has ever existed explaining the function of the electronics board and why certain decisions were made. 
+I was able to do some testing by the end of the term and discovered a couple of mistakes. These mistakes had to do with how I wired certain components up on at the schematic level. I misconnceted the Sleep LED and the RTC_INT Pull-Up Resistor. The sleep LED is less important but rewiring it to my always-on 3.3V line instead of my peripheral device 3.3V line allowed me to better see if the sleep switch/circuit was functioning correctly. The RTC_INT Pull-Up Resistor on the other had was a major error. I had connected the resistor to the Peripheral 3.3V line instead of the always-on 3.3V, meaning that the power would be cut during sleep. Since the RTC_INT is necessary for waking up, this caused a constant cycle of the sleep mode being enabled, the drop in voltage triggering the interrupt, the system waking up, realizing that it has not reached the desired wake-up time, and falling back asleep. 
 
-The 5V sensor requirement was tested using a button that I could press to create a digital signal and recorded what happened on the other side of the logic level converter with a multimeter. While I did not use an oscilloscope as I had originally planned, I felt that the multimeter test was sufficient enough to test the logic level converter circuit. 
+<!-- Insert Image of the rewired Sampler Board -->
 
-The requirement that was partially met was the PCB redesign. There are some minor issues with the board, the sleep circuit is not fully tested, and I did not get the PCB verified by my project mentor. I did get the schematic and PCB looked at by a senior employee at the lab with a lot of experience and he did give the okay on what he saw. The only issues that I encountered were mistakes in connecting certain components to the MOSFET-controlled Power rails instead of the always-on power rails. The most significant component was the pull-up resistor for the RTC interrupt. Since the RTC interrupt functions by pulling the line low, when the pull-up lost power, it triggered the interrupt on the microcontroller. 
-
-- Rewire the Sleep LED
-- Rewire the RTC_INT Pull-Up Resistor
+These mistakes could have been caught if I spent more time at the planning and schematic levels review the design before moving onto the PCB design. Something I plan to allocate time for in future projects. Because of this wiring issues, this version of the board remains untested. There are plans to cut the necessary traces and solder splice wires to reconenct the components and continue testing.
 
 
 ## What would I do differently? What changes would I make?
 
+In the future I would spend a lot more time verifying the schematic level of my design to ensure that I have no obvious mistakes, such as the wiring mistakes that I made in the first version of this board. If I am working on a project that is time limited, I would be sure to allocate more than enough time to spend verifying my design/schematic before moving onto the development of the PCB. 
+
+I would also use KiCad over EAGLE in the future if possible. Having used both of the EDA softwares, I have developed a preference towards KiCad over EAGLE due to KiCad's Hotkey and Shortcut based control scheme. This has made my workflows in KiCad feel much smoother to me than my workflows in EAGLE have. In addition, I have been using the free version of EAGLE which has limitations on what can be done in the software, while KiCad does not. 
+
+Below are a list of changes that I would recommend be made in future version of this board. I have split it into two categories as there is a difference between the changes that I would personally like to make, and the changes that I would recommend to the OPEnS Lab. Since the OPEnS Lab cannot simply make changes for the sack of making changes, the changes I recommend are ones that I see having a better Benefit-Cost Ratio conisdering the current state of the Project. 
+
 What I would recommend for the next OPEnS Lab Version:
 - Find a new Voltage Regulator IC/Redesign the Vreg Circuit
-- Find a new Shift Register IC/
+	- This IC was chosen as it had an Enable pin and its was automotive grade. Since neither of these specifications are that important I would recommend looking into a new IC that is easier to come by, since this one has been very hard to purchase in the past. 
 - Redesign the Shift Registers to use the existing SPI Pins on the Feather M0
+	- If that is not possible with the current Shift Registers for any reason, I would recommend finiding new Shift Registers to use in the design.
 
 For my own personal version (outside of the OPEnS Lab):
 - Switch to an ESP32 based design
-  - Deep Sleep Functionality
-  - Built in RTC and WiFi Modules
-  - Similar amount of I/O Pins
-  - Larger Program Memory (Our debug code is limited by the size of the Feather M0 Program Memory)
-  - 
+	- Deep Sleep Functionality
+  	- Built in RTC and WiFi Modules
+  	- Similar amount of I/O Pins
+	- Larger Program Memory (Our debug code is limited by the size of the Feather M0 Program Memory)
+- Redesign the PCB with the intention of purchasing them preassembled. 
+	- This would allow for smaller componenets to be used, components too small to be easily assembled by hand. 
+	- This would allow for a two-sided PCB design i.e components on either side of the PCB, something that is hard to do by hand.
 
 
 ## Installation
@@ -100,11 +106,11 @@ If your project has a lot of features, list them here.
 ## Credits
 
 List your collaborators, if any, with links to their GitHub profiles.
-- Nathan Jesudason: [Code](https://github.com/OPEnSLab-OSU/ednaServer/tree/54-revamp-sleep-system) Changes for testing
+- Nathan Jesudason: Modifying the [Sampler Code](https://github.com/OPEnSLab-OSU/ednaServer/tree/54-revamp-sleep-system) Changes for testing
 
 If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
 - OPEnS Lab's [Hypnos Board V3.4](https://github.com/OPEnSLab-OSU/OPEnS-Hypnos)
-- Microcontroller code for testing: [ednaServer]()
+- A branch of the [ednaServer](https://github.com/OPEnSLab-OSU/ednaServer/tree/54-revamp-sleep-system) code
 <!-- Link the Symbols and Footprints used? -->
 
 ## License

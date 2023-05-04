@@ -1,6 +1,6 @@
 # eDNA Board V3.0 - A Redesign of the OPEnS Lab's eDNA Control Board
 
-<!-- Insert Image of eDNA V3.0 -->
+![Image of an assembled eDNA Board V3.0](assests/eDNA%20V3.0.jpg)
 
 ## Table of Contents
 
@@ -25,11 +25,11 @@ I have worked on the eDNA project at the OPEnS Lab for the past two years and du
 
 Most of the circuits on this board have already been designed and I had no intention of fundamentally changing them in this redesign. The circuits that are being redesigned are the sleep/power management circuit and the logic level converter circuit. The other circuits only get changed on the PCB Layout level, changing as many two-terminal components from 1206 to 0805 and general rearrangement of the PCB Layout.
 
-<!-- Insert Images of eDNA V2 Power Managment Circuit -->
+![Schematic of the Power Management Circuit in eDNA Board V2]()
 
 The power management (PM) system was designed to disable the output of the voltage regulator (Vreg). This would conserve a lot of power as most of the circuits and devices would be powered off, with only the RTC and parts of the PM circuit still functioning. This circuit work by using a D Flip Flop connected to the Microcontroller and the RTC to enable or disable the output of the Vreg Circuit. Because of this design, the microcontroller was completely off with only the RTC Interrupt able to wake up the microcontroller. This makes it difficult to add additional external interrupts to wake the system from sleep. We encountered this problem when we tried to add a button that would wake the system from sleep and trigger an operation.
 
-<!-- Insert Image of Hypnos V3.4 Power Managment Circuit -->
+![Schematic of the Power Management Circuit in Hypnosv3.4](assests/Hypnos%20Power%20Circuit.png)
 
 Another project from the OPEnS Lab created a PM circuit that is used by the majority of projects at the OPEnS Lab, the eDNA project being one of the few projects that do not. This project, called the Hypnos Board, uses a series of MOSFETs to enable and disable power lines going to peripheral devices, leaving the microcontroller powered. We can further conserve power by putting the microctronller into a deep sleep. This will allow us to easily add new wake-from-sleep interrupts while still conserving power.
 
@@ -38,11 +38,11 @@ According to other employees at the OPEnS Lab and some online research the Adafr
 The change in the logic level converter circuit was needed because 5V I2C sensor support was desired for the eDNA Sampler. This is because many I2C sensors function off of 5V and limiting the system to only 3.3V I2C sensors can make it difficult to add desired features or functionality. The current logic level converter, a module from Sparkfun, only has 4-channels of conversion with three already in use. Since the circuit needed to be changed anyway, instead of using a module like the one from SparkFun, an IC was found to serve the purpose. The IC used in the v3.0 is the TXS0108E, an eight channel logic level converter.
 
 
-## Current State of the Project 	<!-- Read and Update this area -->
+## Current State of the Project
 
 I was able to do some testing by the end of the term and discovered a couple of mistakes. These mistakes had to do with how I wired certain components up on at the schematic level. I misconnceted the Sleep LED and the RTC_INT Pull-Up Resistor. The sleep LED is less important but rewiring it to my always-on 3.3V line instead of my peripheral device 3.3V line allowed me to better see if the sleep switch/circuit was functioning correctly. The RTC_INT Pull-Up Resistor on the other had was a major error. I had connected the resistor to the Peripheral 3.3V line instead of the always-on 3.3V, meaning that the power would be cut during sleep. Since the RTC_INT is necessary for waking up, this caused a constant cycle of the sleep mode being enabled, the drop in voltage triggering the interrupt, the system waking up, realizing that it has not reached the desired wake-up time, and falling back asleep. 
 
-<!-- Insert Image of the rewired Sampler Board -->
+![Image of an assembled eDNA Board V3.0 with splice wires]()
 
 These mistakes could have been caught if I spent more time at the planning and schematic levels review the design before moving onto the PCB design. Something I plan to allocate time for in future projects. Because of this wiring issues, this version of the board remains untested. There are plans to cut the necessary traces and solder splice wires to reconenct the components and continue testing.
 

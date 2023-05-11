@@ -7,7 +7,7 @@
 - [Description](#description)
 - [Design](#design)
 - [Current State](#current-state-of-the-project)
-- [What would I do differently? What changes would I make?](#what-would-i-do-differently-what-changes-would-i-make)
+- [Post Project Notes](#post-project-notes)
 - [Installation](#installation) <!-- Should I have Installation and Usage above or below the Design, Current State, Changes, etc? -->
 - [Usage](#usage)
 - [Credits](#credits)
@@ -47,7 +47,7 @@ I was able to do some testing by the end of the term and discovered a couple of 
 These mistakes could have been caught if I spent more time at the planning and schematic levels review the design before moving onto the PCB design. Something I plan to allocate time for in future projects. Because of this wiring issues, this version of the board remains untested. There are plans to cut the necessary traces and solder splice wires to reconenct the components and continue testing.
 
 
-## What would I do differently? What changes would I make?
+## Post Project Notes
 
 In the future I would spend a lot more time verifying the schematic level of my design to ensure that I have no obvious mistakes, such as the wiring mistakes that I made in the first version of this board. If I am working on a project that is time limited, I would be sure to allocate more than enough time to spend verifying my design/schematic before moving onto the development of the PCB. 
 

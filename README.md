@@ -1,4 +1,6 @@
 # eDNA Board V3.0 - A Redesign of the OPEnS Lab's eDNA Control Board
+A redesign of the Main Control Board for the eDNA Sampler
+
 
 ![Image of an assembled eDNA Board V3.0](assests/eDNA%20V3.0.jpg)
 
